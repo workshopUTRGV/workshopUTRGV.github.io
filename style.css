@@ -1,0 +1,15 @@
+.card-img-top {
+    width: 65%;
+    height: 10vw;
+    object-fit: fill;
+}
+
+a {
+    color: #428BCA;
+    text-decoration: none;
+}
+
+a:hover, a:focus {
+    color: #2A6496;
+    text-decoration: underline;
+}
