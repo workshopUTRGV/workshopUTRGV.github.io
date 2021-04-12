@@ -9,33 +9,36 @@
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700&family=Poppins&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style.css">
   <title>Google exploreCSR at UTRGV</title>
 </head>
 
 <body>
   <div class="container">
-    <header class="d-flex flex-wrap align-items-center justify-content-center py-3 fixed-top bg-white">
-      <ul class="nav nav-pills justify-content-center border-bottom">
-        <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
-        <li class="nav-item"><a href="#faculty" class="nav-link">Faculty Mentors</a></li>
-        <li class="nav-item"><a href="#schedule" class="nav-link">Program Schedule</a></li>
-        <li class="nav-item"><a href="#apply" class="nav-link">How to Apply</a></li>
-        <li class="nav-item"><a href="#faq" class="nav-link">FAQ</a></li>
-        <li class="nav-item"><a href="#acknowledgment" class="nav-link">Acknowledgment</a></li>
+    <header class="d-flex flex-wrap align-items-center justify-content-center py-4 fixed-top header-bar">
+      <ul class="nav nav-pills justify-content-center">
+        <li class="nav-item"><a href="#about" class="nav-link text-light">About</a></li>
+        <li class="nav-item"><a href="#faculty" class="nav-link text-light">Faculty Mentors</a></li>
+        <li class="nav-item"><a href="#schedule" class="nav-link text-light">Program Schedule</a></li>
+        <li class="nav-item"><a href="#apply" class="nav-link text-light">How to Apply</a></li>
+        <li class="nav-item"><a href="#faq" class="nav-link text-light">FAQ</a></li>
+        <li class="nav-item"><a href="#acknowledgment" class="nav-link text-light">Acknowledgment</a></li>
       </ul>
     </header>
   </div>
 
 
-  <div class="px-4 py-5 my-5 text-center" id="home">
-    <img class="d-block mx-auto mb-4 img-fluid" src="img/banner-modified.png" alt="">
-    <h1 class="display-5 fw-bold">exploreCSR 2020-2021: Computing Research</h1>
-    <div class="col-lg-6 mx-auto">
-      <p class="lead mb-4">Virtual Workshop Date: May 28th-29th, 2021.<br>
+  <div class="px-4 py-5 text-center text-light" id="hero">
+    <img class="d-block py-5 mx-auto img-fluid" src="img/banner-modified.png" alt="">
+    <h1 class="hero__heading">exploreCSR 2020-2021: Computing Research</h1>
+    <div class="col-lg-6 mx-auto hero__text">
+      <p class="mb-4">Virtual Workshop Date: May 28th-29th, 2021.<br>
         Virtual Research Internship Date: June 7th - July 30th ( 8 weeks ), 2021. </p>
 
-      <p class="lead mb-4">Note: Internships are limited and will be competitive, please apply early! Internships are
+      <p class="mb-4">Note: Internships are limited and will be competitive, please apply early! Internships are
         matched based on the research interests filled out in the application form.
 
       </p>
@@ -45,9 +48,9 @@
           </div> -->
     </div>
   </div>
-  <div class="bg-light">
-    <section class="px-4 py-5 my-5 container ">
-      <h1 class="display-5 text-center">Welcome</h1>
+  <div class="bg-light ">
+    <section class="px-4 py-5 container ">
+      <h1 class="text-center">Welcome</h1>
       <p>The University of Texas RGV Computer Science is proud to partner with Google Research to offer exploreCSR for a
         rich research experience for undergraduate students. We encourage students from historically-underrepresented
         groups to apply, including but not limited to -- Hispanic, women, students of color, first-generation college
@@ -57,7 +60,7 @@
         gain their confidence to pursue graduate studies, develop practical skills, and achieve a sense of belonging in
         computing research.
       </p>
-      <h3 class="display-9">This workshop covers five research areas:</h3>
+      <h3 class="">This workshop covers five research areas:</h3>
       <ol>
         <li>data mining and artificial intelligence</li>
         <li>pervasive computing and healthcare</li>
@@ -68,7 +71,7 @@
     </section>
   </div>
   <section class="px-4 py-5 my-5 container" id="about">
-    <h1 class="display-5 text-center">About</h1>
+    <h1 class="text-center">About</h1>
     <dl class="row">
       <dt class="col-sm-3">Who can apply</dt>
       <dd class="col-sm-9">undergraduate students (including graduating seniors). The program in this year is virtual
@@ -108,7 +111,7 @@
   </section>
 
   <section class="px-4 py-5 my-5 container" id="faculty">
-    <h1 class="display-5 text-center">Faculty Mentors</h1>
+    <h1 class="text-center">Faculty Mentors</h1>
     <p>Students who participate in the program will be mentored by one of the following CS faculty members from
       different universities:</p>
     <div class="row g-4">
@@ -243,7 +246,7 @@
   </section>
 
   <section class="px-4 py-5 my-5 container" id="schedule">
-    <h1 class="display-5 text-center">Program Schedule</h1>
+    <h1 class="text-center">Program Schedule</h1>
     <p>Throughout the workshop and summer of 2021, participants will pursue their own research projects under the
       guidance of their faculty.</p>
     <table class="table table-striped">
@@ -283,12 +286,12 @@
   </section>
 
   <section class="px-4 py-5 my-5 container" id="apply">
-    <h1 class="display-5 text-center">How to Apply</h1>
+    <h1 class="text-center">How to Apply</h1>
     <p>To apply for the 2021 program, please fill out the <a href='https://forms.gle/2R6HwcVZCPxWmTZ66'>online
         application form </a> by May 1 2021.<br></p>
   </section>
   <section class="px-4 py-5 my-5 container" id="faq">
-    <h1 class="display-5 text-center">FAQ</h1>
+    <h1 class="text-center">FAQ</h1>
     <div class="accordion" id="accordion">
       <div class="accordion-item">
         <h2 class="accordion-header" id="headingOne">
@@ -396,7 +399,7 @@
     </div>
   </section>
   <section class="px-4 py-5 my-5 container" id="acknowledgment">
-    <h1 class="display-5 text-center">Acknowledgment</h1>
+    <h1 class="text-center">Acknowledgment</h1>
     <p>This work was funded by an unrestricted gift from Google.</p>
   </section>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
