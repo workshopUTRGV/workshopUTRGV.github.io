@@ -6,10 +6,13 @@
     --headings-font-family: 'Open Sans', sans-serif;
     --text-font-family: 'Poppins', sans-serif;
   }
-
+  html {
+    scroll-padding-top: 70px; /* height of sticky header */
+  }
 body{
     font-family: var(--text-font-family);
     color: #3d3d3d;
+   
     /* padding-top: 65px;  */
 }
 .header-bar {
@@ -19,8 +22,8 @@ body{
 }
 
 #hero{
-    background: rgb(240,80,35);
-    background: linear-gradient(180deg, rgba(240,80,35,1) 17%, rgba(236,122,62,1) 84%);
+    /* background: rgb(240,80,35);
+    background: linear-gradient(180deg, rgba(240,80,35,1) 17%, rgba(236,122,62,1) 84%); */
 }
 
 h1, h3{
