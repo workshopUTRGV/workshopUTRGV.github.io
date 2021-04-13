@@ -17,12 +17,13 @@
 </head>
 
 <body>
-
-  <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top header-bar py-3">
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top header-bar py-3">
     <div class="container-fluid ">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
-      </button> 
+      </button>
       <div class="collapse navbar-collapse " id="navbarNav">
         <ul class="navbar-nav mx-auto order-0">
           <li class="nav-item"><a href="#about" class="nav-link text-light">About</a></li>
@@ -36,9 +37,14 @@
     </div>
   </nav>
 
-  <div class="px-4 py-5 my-5 text-center " id="hero">
-    <img class="d-block py-5 mx-auto img-fluid" src="img/banner-modified.png" alt="">
-    <h1 class="hero__heading">exploreCSR 2020-2021: Computing Research</h1>
+  <!-- Hero -->
+  <div class="px-4 py-5 mt-5 text-center text-light" id="hero">
+    <div class="overflow-hidden" style="max-height: 30vh;">
+      <div class="container px-5 py-4">
+        <img src="img/banner-modified.png" class="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy">
+      </div>
+    </div>
+    <h1 class="hero__heading py-5">exploreCSR 2020-2021: Computing Research</h1>
     <div class="col-lg-6 mx-auto hero__text">
       <p class="mb-4">Virtual Workshop Date: May 28th-29th, 2021.<br>
         Virtual Research Internship Date: June 7th - July 30th ( 8 weeks ), 2021. </p>
@@ -51,10 +57,13 @@
             <button type="button" class="btn btn-primary btn-lg px-4 me-sm-3">Apply</button>
             <button type="button" class="btn btn-outline-secondary btn-lg px-4">Secondary</button>
           </div> -->
+
     </div>
   </div>
-  <div class="bg-light ">
-    <section class="px-4 py-5 my-5 container ">
+
+  <!-- Welcome -->
+  <section class="bg-light py-5">
+    <div class="px-4 py-5 container ">
       <h1 class="text-center">Welcome</h1>
       <p>The University of Texas RGV Computer Science is proud to partner with Google Research to offer exploreCSR for a
         rich research experience for undergraduate students. We encourage students from historically-underrepresented
@@ -73,183 +82,198 @@
         <li>computational mathematics</li>
         <li>robotics and assistive technology</li>
       </ol>
-    </section>
-  </div>
-  <section class="px-4 py-5 my-5 container" id="about">
-    <h1 class="text-center">About</h1>
-    <dl class="row">
-      <dt class="col-sm-3">Who can apply</dt>
-      <dd class="col-sm-9">undergraduate students (including graduating seniors). The program in this year is virtual
-        due to the COVID-19 pandemic and in the US Central time zone.</dd>
-
-      <dt class="col-sm-3">Experience needed</dt>
-      <dd class="col-sm-9">
-        no prior research experience necessary. Coursework in introduction of computer science, calculus, linear
-        algebra, and probability are helpful.
-      </dd>
-
-      <dt class="col-sm-3">Research activities</dt>
-      <dd class="col-sm-9">
-        <dl class="row">
-          <dd class="col-sm-8">(1) workshop participants will be paired with a faculty mentor throughout the two-day
-            event</dd>
-          <dd class="col-sm-8">(2) internship participants will be paired with one or two faculty mentors through a
-            eight-week research project.</dd>
-        </dl>
-        <p>Multiple projects are available, including literature reviews, replications of prior work, improvements of
-          existing research projects, or new independent research projects. The internship participants will present
-          their work in posters at the end of July, 2021 and may extend to write and publish those into short papers.
-        </p>
-      </dd>
-
-      <dt class="col-sm-3 text-truncate">Time commitment</dt>
-      <dd class="col-sm-9">the workshop is two day events and 12 faculty will present and engage with students. The
-        summer research internship is a eight-week long expereince. We expect research group meetings, mentor meetings,
-        and project work to take a minimum of 4 hours per day.</dd>
-
-      <dt class="col-sm-3">Stipend</dt>
-      <dd class="col-sm-9">
-        to offset the opportunity cost while attending the workshop, each workshop participant will receive a $50
-        stipend. Each internship participant will receive $2,000 in total (4 hours a day with $12.5 per hour).
-      </dd>
-    </dl>
-  </section>
-
-  <section class="px-4 py-5 my-5 container" id="faculty">
-    <h1 class="text-center">Faculty Mentors</h1>
-    <p>Students who participate in the program will be mentored by one of the following CS faculty members from
-      different universities:</p>
-    <div class="row g-4">
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/beiyu.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='http://beiyulincs.github.io/'>Beiyu Lin</a></h5>
-            <p class="card-text text-center"><a target='_blank' href='https://www.utrgv.edu/csci/'>University of Texas
-                RGV</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/jia.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='http://www.pitt.edu/~xiaowei/'>Xiaowei Jia</a>
-            </h5>
-            <p class="card-text text-center"><a href="https://www.cs.pitt.edu/">University of Pittsburgh</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/tapo.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank'
-                href='https://sites.google.com/site/tapomayukh/'>Tapomayukh Bhattacharjee</a></h5>
-            <p class="card-text text-center"><a href="https://www.cs.cornell.edu/">Cornell University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/tianxing.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://tianxing.me/'>Tianxing Li</a></h5>
-            <p class="card-text text-center"><a href="https://www.cse.msu.edu/">Michigan State University</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/li.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://sites.google.com/view/weili2019/'>Wei
-                Li</a></h5>
-            <p class="card-text text-center"><a
-                href="https://csh.depaul.edu/academics/mathematical-sciences/Pages/default.aspx">DePaul University</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/wang.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank'
-                href='https://www.lsu.edu/eng/cse/people/faculty/wang.h.php'>Hao Wang</a></h5>
-            <p class="card-text text-center"><a href="https://www.lsu.edu/eng/cse/">Louisiana State University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/zhang.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank'
-                href='https://www.cs.purdue.edu/homes/yonglezh/'>Yongle Zhang</a></h5>
-            <p class="card-text text-center"><a href="https://www.cs.purdue.edu/">Purdue University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/gana.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://eecs.wsu.edu/~gbhat/'>Ganapati Bhat</a>
-            </h5>
-            <p class="card-text text-center"><a
-                href="https://school.eecs.wsu.edu/academics/undergraduate-program/computer-science/">Washington State
-                University</a></p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/chen.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://imczq.com/'>Zhiqian Chen</a></h5>
-            <p class="card-text text-center"><a href="https://www.cse.msstate.edu/">Mississippi State University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/jianguo.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank'
-                href='https://www.cs.purdue.edu/homes/csjgwang/'>Jianguo Wang</a></h5>
-            <p class="card-text text-center"><a href="https://www.cs.purdue.edu/">Purdue University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/tao.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://ztao.cc/'>Zhiqiang Tao</a></h5>
-            <p class="card-text text-center"><a
-                href="https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/">Santa Clara
-                University</a></p>
-          </div>
-        </div>
-      </div>
-      <div class="col-sm-12 col-md-4 col-lg-3">
-        <div class="card border-0">
-          <img src="./pics/hailu.png" class="card-img-top mx-auto" alt="...">
-          <div class="card-body ">
-            <h5 class="card-title text-center"><a target='_blank' href='https://www.xuhailu.com/'>Hailu Xu</a></h5>
-            <p class="card-text text-center"><a
-                href="https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science">California
-                State University, Long Beach</a></p>
-          </div>
-        </div>
-      </div>
     </div>
+  </section>
+  <!-- About -->
+  <section>
+    <div class="px-4 py-5 my-5 container" id="about">
+      <h1 class="text-center">About</h1>
+      <dl class="row">
+        <dt class="col-sm-3">Who can apply</dt>
+        <dd class="col-sm-9">undergraduate students (including graduating seniors). The program in this year is virtual
+          due to the COVID-19 pandemic and in the US Central time zone.</dd>
+
+        <dt class="col-sm-3">Experience needed</dt>
+        <dd class="col-sm-9">
+          no prior research experience necessary. Coursework in introduction of computer science, calculus, linear
+          algebra, and probability are helpful.
+        </dd>
+
+        <dt class="col-sm-3">Research activities</dt>
+        <dd class="col-sm-9">
+          <dl class="row">
+            <dd class="col-sm-8">(1) workshop participants will be paired with a faculty mentor throughout the two-day
+              event</dd>
+            <dd class="col-sm-8">(2) internship participants will be paired with one or two faculty mentors through a
+              eight-week research project.</dd>
+          </dl>
+          <p>Multiple projects are available, including literature reviews, replications of prior work, improvements of
+            existing research projects, or new independent research projects. The internship participants will present
+            their work in posters at the end of July, 2021 and may extend to write and publish those into short papers.
+          </p>
+        </dd>
+
+        <dt class="col-sm-3 text-truncate">Time commitment</dt>
+        <dd class="col-sm-9">the workshop is two day events and 12 faculty will present and engage with students. The
+          summer research internship is a eight-week long expereince. We expect research group meetings, mentor
+          meetings,
+          and project work to take a minimum of 4 hours per day.</dd>
+
+        <dt class="col-sm-3">Stipend</dt>
+        <dd class="col-sm-9">
+          to offset the opportunity cost while attending the workshop, each workshop participant will receive a $50
+          stipend. Each internship participant will receive $2,000 in total (4 hours a day with $12.5 per hour).
+        </dd>
+      </dl>
+    </div>
+  </section>
+
+
+  <!-- Faculty -->
+
+  <section class="px-4 py-5" id="faculty">
+    <section class="container py-5">
+      <h1 class="text-center">Faculty Mentors</h1>
+      <p>Students who participate in the program will be mentored by one of the following CS faculty members from
+        different universities:</p>
+      <div class="row g-4">
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/beiyu.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='http://beiyulincs.github.io/'>Beiyu Lin</a>
+              </h5>
+              <p class="card-text text-center"><a target='_blank' href='https://www.utrgv.edu/csci/'>University of Texas
+                  RGV</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/jia.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='http://www.pitt.edu/~xiaowei/'>Xiaowei Jia</a>
+              </h5>
+              <p class="card-text text-center"><a href="https://www.cs.pitt.edu/">University of Pittsburgh</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/tapo.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank'
+                  href='https://sites.google.com/site/tapomayukh/'>Tapomayukh Bhattacharjee</a></h5>
+              <p class="card-text text-center"><a href="https://www.cs.cornell.edu/">Cornell University</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/tianxing.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://tianxing.me/'>Tianxing Li</a></h5>
+              <p class="card-text text-center"><a href="https://www.cse.msu.edu/">Michigan State University</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/li.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://sites.google.com/view/weili2019/'>Wei
+                  Li</a></h5>
+              <p class="card-text text-center"><a
+                  href="https://csh.depaul.edu/academics/mathematical-sciences/Pages/default.aspx">DePaul University</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/wang.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank'
+                  href='https://www.lsu.edu/eng/cse/people/faculty/wang.h.php'>Hao Wang</a></h5>
+              <p class="card-text text-center"><a href="https://www.lsu.edu/eng/cse/">Louisiana State University</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/zhang.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank'
+                  href='https://www.cs.purdue.edu/homes/yonglezh/'>Yongle Zhang</a></h5>
+              <p class="card-text text-center"><a href="https://www.cs.purdue.edu/">Purdue University</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/gana.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://eecs.wsu.edu/~gbhat/'>Ganapati
+                  Bhat</a>
+              </h5>
+              <p class="card-text text-center"><a
+                  href="https://school.eecs.wsu.edu/academics/undergraduate-program/computer-science/">Washington State
+                  University</a></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/chen.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://imczq.com/'>Zhiqian Chen</a></h5>
+              <p class="card-text text-center"><a href="https://www.cse.msstate.edu/">Mississippi State University</a>
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/jianguo.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank'
+                  href='https://www.cs.purdue.edu/homes/csjgwang/'>Jianguo Wang</a></h5>
+              <p class="card-text text-center"><a href="https://www.cs.purdue.edu/">Purdue University</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/tao.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://ztao.cc/'>Zhiqiang Tao</a></h5>
+              <p class="card-text text-center"><a
+                  href="https://www.scu.edu/engineering/academic-programs/department-of-computer-engineering/">Santa
+                  Clara
+                  University</a></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-3">
+          <div class="card border-0">
+            <img src="./pics/hailu.png" class="card-img-top mx-auto" alt="...">
+            <div class="card-body ">
+              <h5 class="card-title text-center"><a target='_blank' href='https://www.xuhailu.com/'>Hailu Xu</a></h5>
+              <p class="card-text text-center"><a
+                  href="https://www.csulb.edu/college-of-engineering/computer-engineering-computer-science">California
+                  State University, Long Beach</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
 
   </section>
 
+  <!-- Schedule -->
   <section class="px-4 py-5 my-5 container" id="schedule">
     <h1 class="text-center">Program Schedule</h1>
     <p>Throughout the workshop and summer of 2021, participants will pursue their own research projects under the
@@ -290,11 +314,14 @@
     </table>
   </section>
 
+  <!-- Apply -->
   <section class="px-4 py-5 my-5 container" id="apply">
     <h1 class="text-center">How to Apply</h1>
     <p>To apply for the 2021 program, please fill out the <a href='https://forms.gle/2R6HwcVZCPxWmTZ66'>online
         application form </a> by May 1 2021.<br></p>
   </section>
+
+  <!-- FAQ -->
   <section class="px-4 py-5 my-5 container" id="faq">
     <h1 class="text-center">FAQ</h1>
     <div class="accordion" id="accordion">
@@ -403,6 +430,8 @@
       </div>
     </div>
   </section>
+
+  <!-- Acknowledgment -->
   <section class="px-4 py-5 my-5 container" id="acknowledgment">
     <h1 class="text-center">Acknowledgment</h1>
     <p>This work was funded by an unrestricted gift from Google.</p>

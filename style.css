@@ -6,24 +6,15 @@
     --headings-font-family: 'Open Sans', sans-serif;
     --text-font-family: 'Poppins', sans-serif;
   }
-  html {
+
+html {
     scroll-padding-top: 70px; /* height of sticky header */
   }
+
 body{
     font-family: var(--text-font-family);
     color: #3d3d3d;
-   
-    /* padding-top: 65px;  */
-}
-.header-bar {
-    background: rgb(240,80,35);
-    background: linear-gradient(180deg, rgba(240,80,35,1) 73%, rgba(240,80,35,0.50773812943146) 100%);
-    font-family: var(--text-font-family);
-}
 
-#hero{
-    /* background: rgb(240,80,35);
-    background: linear-gradient(180deg, rgba(240,80,35,1) 17%, rgba(236,122,62,1) 84%); */
 }
 
 h1, h3{
@@ -31,12 +22,24 @@ h1, h3{
     font-weight: 700;
 }
 
-.hero__text{
+.header-bar {
+    background: var(--orange);
     font-family: var(--text-font-family);
 }
+
 .header-bar__links{
     color: var(--white);
 }
+
+#hero{
+    background: rgb(240,80,35);
+    background: linear-gradient(180deg, rgba(240,80,35,1) 17%, rgba(236,122,62,1) 84%);
+}
+
+.hero__text{
+    font-family: var(--text-font-family);
+}
+
 .card-img-top {
     width: 168px;
     height: 168px;
@@ -52,4 +55,3 @@ a:hover, a:focus {
     color: #2A6496;
     text-decoration: underline;
 }
-
