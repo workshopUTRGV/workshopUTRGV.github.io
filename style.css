@@ -17,7 +17,7 @@ body{
 
 }
 
-h1, h3{
+h1, h2, h3, h4, h6{
     font-family: var(--headings-font-family);
     font-weight: 700;
 }
@@ -36,18 +36,37 @@ h1, h3{
     font-family: var(--text-font-family);
 }
 
-.card-img-top {
-    width: 168px;
-    height: 168px;
-    object-fit: cover;
-}
-
-a {
-    color: #428BCA;
-    text-decoration: none;
+a, strong {
+    color: var(--orange);
 }
 
 a:hover, a:focus {
-    color: #2A6496;
-    text-decoration: underline;
+    color: var(--orange);
+    text-decoration: none;
 }
+
+
+
+.card-title a{
+    color: var(--orange);
+    text-decoration: none;
+
+}
+
+.card-text a{
+    color: var(--gray);
+    text-decoration: none;
+
+}
+.card-title a:hover, .card-text a:hover, .card-title a:focus, .card-text a:focus {
+    text-decoration-line: underline;
+    text-decoration-color:var(--orange);
+    text-decoration-thickness: 3px;
+}
+
+.rounded-circle{
+    border-radius:50%;
+}
+
+
+
