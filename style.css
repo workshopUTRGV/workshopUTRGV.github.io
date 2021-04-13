@@ -31,10 +31,6 @@ h1, h3{
     color: var(--white);
 }
 
-#hero{
-    background: rgb(240,80,35);
-    background: linear-gradient(180deg, rgba(240,80,35,1) 17%, rgba(236,122,62,1) 84%);
-}
 
 .hero__text{
     font-family: var(--text-font-family);
